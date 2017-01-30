@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-remove-module-extension",
+  "version": "1.0.0",
+  "description": "remove extension name, like .js, .jsx when 'import from' or 'export from' a module",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel index.js -d lib/",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hualu00/babel-plugin-remove-module-extension.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "jsx",
+    "js",
+    "remove",
+    "extension"
+  ],
+  "author": "Hua Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hualu00/babel-plugin-remove-module-extension/issues"
+  },
+  "homepage": "https://github.com/hualu00/babel-plugin-remove-module-extension#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
