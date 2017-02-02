@@ -4,7 +4,7 @@
   "description": "remove extension name, like .js, .jsx when 'import from' or 'export from' a module",
   "main": "lib/index.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel index.js -d lib/",
+    "build": "babel index.js -d lib/",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -3,3 +3,6 @@ lib
 
 # Dependencies
 node_modules
+
+#  Log
+npm-debug.log
